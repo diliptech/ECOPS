@@ -104,6 +104,8 @@
     <Content Include="Fonts\metro.svg" />
     <Content Include="Global.asax" />
     <None Include="Scripts\jquery-3.3.1.intellisense.js" />
+    <Content Include="Images\Slide1.jpg" />
+    <Content Include="Images\Slide2.jpg" />
     <Content Include="Scripts\jquery-3.3.1.js" />
     <Content Include="Scripts\jquery-3.3.1.min.js" />
     <Content Include="Scripts\jquery-3.3.1.slim.js" />
@@ -111,9 +113,14 @@
     <Content Include="Scripts\metro.js" />
     <Content Include="Scripts\metro.min.js" />
     <Content Include="Web.config" />
+    <Content Include="Views\Shared\_Layout.cshtml" />
+    <Content Include="Views\_ViewStart.cshtml" />
+    <Content Include="Views\ECop\Home.cshtml" />
+    <Content Include="Views\ECop\Login.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="Controllers\ECopController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -137,7 +144,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
-    <Folder Include="Controllers\" />
     <Folder Include="Models\" />
   </ItemGroup>
   <PropertyGroup>

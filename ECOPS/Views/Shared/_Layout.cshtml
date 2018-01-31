@@ -1,0 +1,60 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>ECops- @ViewBag.Title</title>
+    <link href="~/Content/metro.css" rel="stylesheet" />
+    <link href="~/Content/metro-responsive.css" rel="stylesheet" />
+    <link href="~/Content/metro-colors.css" rel="stylesheet" />
+    <link href="~/Content/metro-icons.css" rel="stylesheet" />
+    <link href="~/Content/metro-schemes.css" rel="stylesheet" />
+    <link href="~/Content/metro-rtl.css" rel="stylesheet" />
+    <script src="~/Scripts/jquery-3.3.1.js"></script>
+    <script src="~/Scripts/metro.js"></script>
+</head>
+<body class="container">
+    <div class="app-bar darcula" data-role="appbar">
+        <a class="app-bar-element branding" href="#">
+            ECops
+        </a>
+        <span class="app-bar-divider">
+        </span>
+        <ul class="app-bar-menu">
+            <li>
+                <a href="#">
+                    <span class="mif-home"></span> Home
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <span class="mif-user"></span> Citizen Service
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <span class="mif-search"></span> Know your case status
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <span class="mif-organization"></span> About Us
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <span class="mif-phone"></span> Contact Us
+                </a>
+            </li>
+            <li>
+                <a href="~/ECop/Login">
+                    <span class="mif-enter"></span> Login
+                </a>
+            </li>
+        </ul>
+    </div>
+    <div>
+        @RenderBody()
+    </div>
+</body>
+</html>
